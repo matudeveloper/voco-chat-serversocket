@@ -1,0 +1,23 @@
+{
+  "name": "voco-chat-serversocket",
+  "version": "1.0.0",
+  "description": "Voco chat serve with WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --pretty --transpile-only src/app.ts"
+  },
+  "keywords": [],
+  "author": "Maarika Lukk",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "socket.io-client": "^4.4.1",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/ws": "^8.5.3",
+    "ts-node-dev": "^1.1.8"
+  }
+}
